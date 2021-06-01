@@ -1,0 +1,5 @@
+module EscobarSnow {
+	requires javafx.controls;
+	
+	opens Applicacio to javafx.graphics, javafx.fxml;
+}
